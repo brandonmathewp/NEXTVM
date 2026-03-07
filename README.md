@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/nextvm-logo.png" alt="NEXTVM Logo" width="200" height="200" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/NDK-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />

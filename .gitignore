@@ -92,8 +92,7 @@ BUILD_PROGRESS.md
 # Feature planning files
 *.planning.md
 
-# Debug images and logs
-*.png
+# Debug logs
 firebase-debug.log
 
 # Logcat dumps
