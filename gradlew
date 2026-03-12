@@ -116,10 +116,8 @@ if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
     esac
 fi
 
-# Collect all arguments for the java command, stracks://issues.gradle.org/browse/GRADLE-2359
-# Trapping is necessary to handle 'composite builds' (Gradle Lifecycle).
-# shellcheck disable=SC2034
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+# Fixed: Removed internal double-quotes and increased memory for Android builds
+DEFAULT_JVM_OPTS="-Xmx2048m -Xms512m"
 
 # Collect all arguments for the java command;
 #   * $DEFAULT_JVM_OPTS, $JAVA_OPTS, and $GRADLE_OPTS can contain fragments of
